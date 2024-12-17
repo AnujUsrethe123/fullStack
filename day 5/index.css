@@ -1,0 +1,39 @@
+ /* h3{
+
+    background-color: aquamarine;
+     color: brown; 
+}  */
+
+/* *{
+    background-color: plum;
+}  */
+
+/* #one{ 
+     background-color:  salmon;
+    color: red;
+} */
+
+  /* a[href='http://google.com']{
+    background-color: chocolate;
+    color:  white;
+
+ }  */
+
+   /* a[href^='https']{
+    background-color: chocolate;
+    color:  white;
+
+ }  */
+
+ 
+ /* a[href$='in']{
+    background-color: chocolate;
+    color:  white;
+}
+*/
+
+a[href*='g']{
+  background-color: chocolate;
+  color:  white;
+
+}
