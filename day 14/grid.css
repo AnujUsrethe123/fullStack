@@ -1,0 +1,20 @@
+#main{
+    border:5px solid grey;
+    height: 90vh;
+    width:90vw;
+    margin:12px auto;
+    display:grid;
+    grid-template-columns: 200px 200px 300px;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    /* gap:50px; */
+    /* grid-auto-rows: 50px; */
+}
+
+.one{
+    border: 2px solid aqua;
+}
+
+#one{
+    grid-row-start: 2;
+}
